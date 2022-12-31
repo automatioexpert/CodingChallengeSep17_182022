@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Appium Test(failed)">
+    <classes>
+      <class name="CodingExpert.TC5">
+        <methods>
+          <include name="t1"/>
+        </methods>
+      </class> <!-- CodingExpert.TC5 -->
+      <class name="CodingExpert.TestCase1">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- CodingExpert.TestCase1 -->
+      <class name="CodingExpert.TC4">
+        <methods>
+          <include name="addProductTest"/>
+        </methods>
+      </class> <!-- CodingExpert.TC4 -->
+      <class name="CodingExpert.TestCase3">
+        <methods>
+          <include name="login"/>
+          <include name="composeEmail"/>
+          <include name="sendEmail"/>
+        </methods>
+      </class> <!-- CodingExpert.TestCase3 -->
+    </classes>
+  </test> <!-- Appium Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Appium Test">
+    <classes>
+      <class name="CodingExpert.TestCase3"/>
+      <class name="CodingExpert.TestCase1"/>
+      <class name="CodingExpert.TC4"/>
+      <class name="CodingExpert.TC6"/>
+      <class name="CodingExpert.TC5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
